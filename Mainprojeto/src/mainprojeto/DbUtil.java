@@ -11,7 +11,7 @@ public class DbUtil implements iDbUtil {
 
     final String DB_URL = "jdbc:mysql://localhost:3394/mainprojeto";
     final String USER = "root";
-    final String PASS = "qwerty321";
+    final String PASS = "";
 
     @Override
     public Connection getConnection() throws SQLException, NullPointerException {
